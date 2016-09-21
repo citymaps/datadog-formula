@@ -23,7 +23,7 @@ datadog-repo:
     {% endif %}
  
 datadog-pkg:
-  pkg.latest:
+  pkg.installed:
     - name: datadog-agent
     - refresh: True
     - require:
